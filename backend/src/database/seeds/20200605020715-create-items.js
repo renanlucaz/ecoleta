@@ -5,13 +5,13 @@ module.exports = {
             [
                 {
                     title: 'Lâmpadas',
-                    image: 'lampagas.svg',
+                    image: 'lampadas.svg',
                     created_at: new Date(),
                     updated_at: new Date(),
                 },
                 {
                     title: 'Pilhas e baterias',
-                    image: 'baterigas.svg',
+                    image: 'baterias.svg',
                     created_at: new Date(),
                     updated_at: new Date(),
                 },

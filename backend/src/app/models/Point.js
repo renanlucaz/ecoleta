@@ -23,9 +23,9 @@ class Point extends Model {
 
     static associate(models) {
         this.belongsToMany(models.Item, {
-            through: 'itemsPoint',
-            foreignKey: 'item_id',
-            as: 'item',
+            through: 'point_items',
+            as: 'items',
+            foreignKey: 'point_id',
         });
     }
 }

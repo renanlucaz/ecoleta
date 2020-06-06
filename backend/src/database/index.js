@@ -4,9 +4,8 @@ import databaseConfig from '../config/database';
 
 import Point from '../app/models/Point';
 import Item from '../app/models/Item';
-import ItemsPoint from '../app/models/ItemsPoint';
 
-const models = [Point, Item, ItemsPoint];
+const models = [Point, Item];
 
 class Database {
     constructor() {
